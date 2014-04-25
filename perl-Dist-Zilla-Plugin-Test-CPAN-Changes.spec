@@ -1,11 +1,12 @@
 %define upstream_name    Dist-Zilla-Plugin-Test-CPAN-Changes
-%define upstream_version 0.003
+%define upstream_version 0.008
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	2
+Release:	1
 
 Summary:	Release tests for your changelog
+
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
@@ -45,4 +46,5 @@ perl Makefile.PL INSTALLDIRS=vendor
 %doc README CHANGES LICENSE META.yml
 %{_mandir}/man3/*
 %{perl_vendorlib}/*
+
 

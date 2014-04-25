@@ -1,2 +1,4 @@
+removed_sources:
+  Dist-Zilla-Plugin-Test-CPAN-Changes-0.003.tar.gz: 05e54de2fab3642d51c5ce527c66bf6440ce0193
 sources:
-  "Dist-Zilla-Plugin-Test-CPAN-Changes-0.003.tar.gz": 05e54de2fab3642d51c5ce527c66bf6440ce0193
+  Dist-Zilla-Plugin-Test-CPAN-Changes-0.008.tar.gz: d87dc7c9ac7ac52c00deb824bef3ec61d8c5276a

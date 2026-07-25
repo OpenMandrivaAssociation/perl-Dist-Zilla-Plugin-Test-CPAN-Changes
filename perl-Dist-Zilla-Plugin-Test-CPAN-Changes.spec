@@ -1,15 +1,15 @@
 %define upstream_name    Dist-Zilla-Plugin-Test-CPAN-Changes
-%define upstream_version 0.003
+%define upstream_version 0.013
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	4
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	Release tests for your changelog
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Dist/%{upstream_name}-%{upstream_version}.tar.gz
+Url:		https://github.com/karenetheridge/Dist-Zilla-Plugin-Test-CPAN-Changes
+Source0:	https://cpan.metacpan.org/authors/id/E/ET/ETHER/Dist-Zilla-Plugin-Test-CPAN-Changes-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
